@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Questrial&family=Satisfy&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Satisfy', cursive; */
+
+    *{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.first{
+    background-color: #311A5F;
+}
+.first{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.first h1{
+    font-weight: 900;
+}
+.first .bg{
+    margin-bottom: 900px;
+    margin-top: 140px;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    
+}
+.bg1{
+    width: 99%;
+    height: 500px;
+    position: absolute;
+}
+.first .top{
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    border: none;
+    top: 0;
+    background-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+    /* Note: backdrop-filter has minimal browser support */
+
+}
+.first .top.scrolled{
+    background: #311A5F;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
+.first .top img{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    padding-left: 30px;
+    width: 100px;
+}
+.first .top .options{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.options ul{
+    margin-right: 30px;
+}
+.options ul li a{
+    text-decoration: none;
+    color: white;
+}
+.options ul li{
+    display:inline-block;
+    color: white;
+    margin: 40px 20px;
+}
+.middle{
+    color: white    ;
+    position: fixed;
+    top: 160px;
+    left: 460px;
+    justify-content: center;
+    text-align: center;
+}
+.middle h1{
+    font-size: 80px;
+    line-height: 70px;
+}
+.middle p{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+.middle img{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 100px 50px rgba(255, 255, 255, 0.25);
+}
+.second{
+    position: absolute;
+    top: 860px;
+    height: 100%;
+    width: 100%;
+    background-color: #10002B;
+}
+.second .rec1{
+    width: 270px;
+    height: 400px;
+    margin-left: 60px;
+    background-color: transparent;
+    border: 3px solid #C77DFF   ;
+    
+}
+.second .rec2{
+    width: 270px;
+    height: 400px;
+    left: 75px;
+    margin-top: -350px;
+
+    border: 3px solid #C77DFF   ;
+}
+.second .rec3{
+    width: 270px;
+    height: 400px;
+    left: 102px;
+    margin-top: -425px;
+    margin-left: 33px;
+}
+.second .rec3 img{
+    height: 100%;
+    width: 100%;
+}
+.second h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.second span{
+    color: #C77DFF  ;
+    font-family: 'Poppins', sans-serif;
+}
+.second p{
+    margin-top: 30px;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    line-height: 30px;
+}
+.second .info{
+    margin-top: 40px;
+}
+.second .info p{
+    line-height: 0;
+}
+.second .second-button{
+    width: 286px;
+    height: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #C77DFF   ;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.third{
+    top: 1500px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #10002B;
+    height: 700px;
+}
+.third ul li{
+    display:inline-block;
+    margin: 0 20px 0 0;
+}
+.third .partition{
+    height: 30px;
+    width: 10px;
+    background-color: white;
+}
+.third .barProgress{
+    margin: 30px 0;
+}
+
+.progress .progress-bar{
+    background-color: #C77DFF   ;
+}
+.barProgress .progress {
+    height: 23px;
+}
+#softskill{
+    display: none;
+}
+.third .rec1{
+    width: 270px;
+    height: 400px;
+    margin-left: 60px;
+    background-color: transparent;
+    border: 3px solid #C77DFF   ;
+    
+}
+.third .rec2{
+    width: 270px;
+    height: 400px;
+    left: 75px;
+    margin-top: -350px;
+
+    border: 3px solid #C77DFF   ;
+}
+.third .rec3{
+    width: 270px;
+    height: 400px;
+    left: 102px;
+    margin-top: -425px;
+    margin-left: 33px;
+}
+.third .rec3 img{
+    height: 100%;
+    width: 100%;
+}
+.third h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.third span{
+    color: #C77DFF  ;
+    font-family: 'Poppins', sans-serif;
+}
+.third p{
+    margin-top: 30px;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    line-height: 30px;
+}
+.third .info{
+    margin-top: 40px;
+}
+.third .info p{
+    line-height: 0;
+}
+.third .second-button{
+    width: 286px;
+    height: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #C77DFF   ;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.fourth{
+    top: 1450px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #10002B;
+}
+.fourth h2{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.fourth span{
+    color: #C77DFF  ;
+    font-family: 'Poppins', sans-serif;
+}
+.fourth p{
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 18px;
+}
+.fourth .projects{
+    margin-top: 50px;
+    height: 590px;
+    padding: 20px;
+}
+.carousel-caption{
+    box-sizing: border-box;
+    color: white;
+
+    background: linear-gradient(100.55deg, rgba(2, 153, 233, 0.6) 2.04%, rgba(2, 153, 233, 0.2) 95.41%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 18px;
+}
+.fifth{
+    top: 1400px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #10002B;
+}
+.fifth h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.fifth span{
+    color: #C77DFF;
+    font-family: 'Poppins', sans-serif;
+}
+.fifth p{
+    margin-top: 30px;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    line-height: 0px;
+    margin-bottom: 40px;
+}
+.fifth input, textarea{
+    width: 100%;
+    margin: 20px 0px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fifth .fifth-button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #C77DFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 50px;
+    color: white;
+}
